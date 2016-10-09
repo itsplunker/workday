@@ -1,0 +1,275 @@
+[app/install/install_source_checksum]
+version = 6.2.0
+modtime = 1430753223.390096900
+
+[views/traffic_status_report]
+version = 6.2.0
+modtime = 1430836530.576470000
+
+[views/Web_Traffic_Overview]
+version = 6.2.0
+modtime = 1431112198.347909000
+
+[eventtypes/Googlebot]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1430777562.343578800
+
+[eventtypes/Opera]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1430777571.991963200
+
+[views/web_fmis_metrics]
+owner = admin
+version = 6.2.0
+modtime = 1430918680.030982500
+
+[views/geographical_performance]
+owner = admin
+version = 6.2.0
+modtime = 1430856682.836222400
+
+[views/FMIS_Overview]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431048108.021168700
+
+[nav/default]
+version = 6.2.0
+modtime = 1431112071.984700000
+
+[views/web_traffic_overview_2]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431095374.522367600
+
+[views/statistics_by_browser]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431058477.594189700
+
+[props/access_combined]
+version = 6.2.0
+modtime = 1431025411.904014600
+
+[props/access_combined1]
+owner = admin
+version = 6.2.0
+modtime = 1431026222.743901700
+
+[props/access_combined/EXTRACT-useragent%2Curi_path]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431030878.106439400
+
+[props/access_combined/EXTRACT-clientip%2Cident%2Cclientport%2Cmethod%2Curi%2Cstatus%2Cbytes%2Cversion%2Creferer_domain%2Cuseragent]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431035957.890380500
+
+[eventtypes/css]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431044713.851378300
+
+[eventtypes/php]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431045207.790037800
+
+[eventtypes/html]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431045342.201627700
+
+[eventtypes/js]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431045374.202053400
+
+[props/access_combined/EXTRACT-duration]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431108499.915174500
+
+[views/yearly_statistics]
+owner = admin
+version = 6.2.0
+modtime = 1431112357.557138700
+
+[views/views_statistics]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431101568.427579900
+
+[views/quarterly_statistics]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431111210.815175600
+
+[views/browser_statistics]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431093856.264800500
+
+[eventtypes/ico]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431094641.264382400
+
+[eventtypes/png]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431094668.043441800
+
+[eventtypes/gif]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431094707.808271600
+
+[eventtypes/jpg]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431094733.538905500
+
+[views/web_technologies_overview]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112264.431095900
+
+[views/web_graphics_overview]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112323.779620300
+
+[views/activity_by_client]
+owner = admin
+version = 6.2.0
+modtime = 1431110228.229628700
+
+[transforms/browscap]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431106922.801687700
+
+[tags/host%3Dussenate01]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112429.299967300
+
+[tags/host%3Dussenate02]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112444.738768500
+
+[tags/host%3Dussenate03]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112459.841908000
+
+[tags/host%3Dussenate04]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112474.283832700
+
+[tags/host%3Dussenate05]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112489.605998400
+
+[tags/host%3Dussenate06]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112504.144022600
+
+[tags/host%3Dussenate07]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112523.925984800
+
+[tags/host%3Dussenate08]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112547.082593200
+
+[tags/host%3Dussenate09]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112584.112055300
+
+[tags/host%3Dussenate10]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112599.397510400
+
+[tags/host%3Dussenate11]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.2.0
+modtime = 1431112617.301003100

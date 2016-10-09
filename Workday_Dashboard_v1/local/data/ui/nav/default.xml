@@ -1,0 +1,17 @@
+<nav color="#293E6A">
+  <view name="FMIS_Overview" default='true' /> 
+  
+   <collection label="Web Dashboards">
+    <view name="Web_Traffic_Overview"/>
+    <view name="web_technologies_overview"/>
+    <view name="web_graphics_overview"/>  
+   </collection>
+  
+  <collection label="Statistics Dashboards">
+    <view name="browser_statistics" />
+    <view name="views_statistics" />
+    <view name="quarterly_statistics" />
+    <view name="yearly_statistics" />
+  </collection>
+  <view name="search" label="Search"/>
+</nav>

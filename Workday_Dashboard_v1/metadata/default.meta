@@ -1,0 +1,109 @@
+[app/ui]
+version = 6.1.3
+modtime = 1427916595.771718000
+
+[app/launcher]
+version = 6.1.3
+modtime = 1427916595.835265000
+
+[transforms/http_statuses]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.1.3
+modtime = 1427990258.965618000
+
+[views/Web_Traffic_Overview]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.1.4
+modtime = 1428096090.740270800
+
+[views/traffic_status_report]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.2.2
+modtime = 1427996107.017269300
+
+[views/user_agent_overview]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.1.4
+modtime = 1428096993.118903300
+
+[views/yearly_stats_by_month]
+owner = admin
+version = 6.1.4
+modtime = 1428097846.651858500
+
+[lookups/http_statuses.csv]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.1.4
+modtime = 1428095814.231622700
+
+[app/install/install_source_checksum]
+version = 6.2.2
+modtime = 1427994905.075166000
+
+[nav/default]
+version = 6.2.2
+modtime = 1427998503.061475200
+
+[props/access_combined/EXTRACT-status]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.2.2
+modtime = 1427999109.510296700
+
+[lookups/browscap.csv]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = nobody
+version = 6.2.2
+modtime = 1428017661.594371600
+
+[props/access_combined/EXTRACT-ua_raw]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.2.2
+modtime = 1428019599.774381200
+
+[]
+access = read : [ * ], write : [ admin, power ]
+
+### EVENT TYPES
+
+[eventtypes]
+export = system
+
+
+### PROPS
+
+[props]
+export = system
+
+
+### TRANSFORMS
+
+[transforms]
+export = system
+
+
+### LOOKUPS
+
+[lookups]
+export = system
+
+
+### VIEWSTATES: even normal users should be able to create shared viewstates
+
+[viewstates]
+access = read : [ * ], write : [ * ]
+export = system
